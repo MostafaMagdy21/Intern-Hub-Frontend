@@ -76,7 +76,7 @@ table.m-b23fa0ef.mantine-Table-table {
 .table-style {
 	border-radius: 5px;
 	border: 1px solid #eee;
-	overflow: scroll;
+	overflow: auto;
 }
 
 .edite-icon {
