@@ -5,7 +5,9 @@
 .app-table h3 {
 	margin-bottom: 30px;
 }
-
+thead {
+	background-color: rgba(0, 0, 0, 0.08);
+}
 th {
 	text-align: left;
 	padding: 15px 15px;
@@ -51,9 +53,6 @@ tr {
 	text-align: center;
 }
 
-thead {
-	background-color: rgba(0, 0, 0, 0.08);
-}
 table.m-b23fa0ef.mantine-Table-table {
 	border: 1px solid #ddd;
 	border-radius: 5px;
@@ -69,29 +68,22 @@ table.m-b23fa0ef.mantine-Table-table {
 		font-size: 0.5rem;
 	}
 }
-@media (max-width: 567px) {
-	table.m-b23fa0ef.mantine-Table-table {
-		font-size: 0.4rem;
-	}
-}
-@media (max-width: 450px) {
-	table.m-b23fa0ef.mantine-Table-table {
-		font-size: 0.3rem;
-	}
+
+table.m-b23fa0ef.mantine-Table-table {
+	min-width: 645px;
 }
 
 .table-style {
 	border-radius: 5px;
-	overflow: hidden;
 	border: 1px solid #eee;
+	overflow: scroll;
 }
 
 .edite-icon {
 	color: #00a7fb;
 	font-size: 1rem;
-	/* text-align: left; */
 	float: right;
-	margin-top: -25px;
+	margin-top: -7px;
 }
 .help-icon {
 	color: #00a7fb;
@@ -109,8 +101,7 @@ table.m-b23fa0ef.mantine-Table-table {
 }
 
 .application-status-1 span {
-	padding-right: 40px;
-	padding-left: 30px;
+	padding: 0px 20%;
 	background-color: #fffab7;
 	border-radius: 7px;
 }

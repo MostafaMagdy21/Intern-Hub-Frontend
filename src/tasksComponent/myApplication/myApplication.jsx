@@ -1,4 +1,6 @@
 import { Container, Table } from "@mantine/core";
+// import { Container, Table } from "react-bootstrap";
+
 import "./myApplication.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
@@ -44,7 +46,7 @@ export const MyApplication = () => {
 				<section className="app-table">
 					<h3 className="my-application-title">My Applications</h3>
 					<div className="table-style">
-						<Table responsive="xs">
+						<Table responsive>
 							<thead>
 								<tr>
 									<th>COMPANY</th>

@@ -1,19 +1,19 @@
 import ReactPaginate from "react-paginate";
 
 export const Pagination = ({ getPageNumber }) => {
-	const pageCount = 1;
+	const pageCount = 3;
 	const handlePageClick = (data) => {
 		getPageNumber(data.selected + 1);
 	};
 	return (
 		<ReactPaginate
 			breakLabel="..."
-			nextLabel="next >"
+			nextLabel="next>"
 			onPageChange={handlePageClick}
-			marginPagesDisplayed={2}
+			marginPagesDisplayed={1}
 			pageRangeDisplayed={2}
 			pageCount={pageCount}
-			previousLabel="< previous"
+			previousLabel="<previous"
 			containerClassName="pagination justify-content-center p-3"
 			pageClassName="page-item"
 			pageLinkClassName="page-link"
